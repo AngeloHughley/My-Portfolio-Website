@@ -104,9 +104,9 @@ li a {
 }
 
 .skill-header {
-  /*border: 3px solid #088f8f;*/
+  border: 3px solid #088f8f;
   align-content: center;
-  width: 180px;
+  width: 295px;
   padding: 15px;
   margin: 0 auto;
 }
@@ -117,29 +117,28 @@ li a {
   display: flex;
 }
 .skill-container {
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 .skill-list {
-  float: right;
   width: 33%;
   padding: 5px;
+  display: inline-block;
 }
 .skill-list2 {
-  float: left;
   width: 33%;
   padding: 5px;
+  display: inline-block;
 }
 .seperate {
-  margin-top: 30%;
+  margin-top: 13%;
 }
 
 /*Project Section */
 
 .project-header {
-  /*border: 3px solid #088f8f;*/
+  border: 3px solid #088f8f;
   align-content: center;
-  width: 180px;
+  width: 295px;
   padding: 30px;
   margin: 0 auto;
 }
