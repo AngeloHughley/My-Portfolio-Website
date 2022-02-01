@@ -104,20 +104,24 @@ li a {
 }
 
 .skill-header {
-  border: 3px solid #088f8f;
+  /*border: 3px solid #088f8f;*/
   align-content: center;
   width: 180px;
-  padding: 30px;
+  padding: 15px;
   margin: 0 auto;
 }
 .skill-text {
   font: black;
-  font-size: 30px;
+  font-size: 55px;
   text-align: center;
+  display: flex;
 }
-
+.skill-container {
+  margin-left: auto;
+  margin-right: auto;
+}
 .skill-list {
-  float: left;
+  float: right;
   width: 33%;
   padding: 5px;
 }
@@ -127,13 +131,13 @@ li a {
   padding: 5px;
 }
 .seperate {
-  margin-top: 27%;
+  margin-top: 30%;
 }
 
 /*Project Section */
 
 .project-header {
-  border: 3px solid #088f8f;
+  /*border: 3px solid #088f8f;*/
   align-content: center;
   width: 180px;
   padding: 30px;
@@ -141,8 +145,9 @@ li a {
 }
 .project-text {
   font: black;
-  font-size: 30px;
+  font-size: 60px;
   text-align: center;
+  display: flex;
 }
 .projects {
   display: flex;
