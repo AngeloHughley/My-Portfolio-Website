@@ -178,7 +178,7 @@ li a {
   background-size: cover;
   background-position: left center;
 }
-.OS-project {
+.Hospital-project {
   width: 250px;
   height: 300px;
   background: white;
@@ -186,7 +186,7 @@ li a {
   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 50px;
-  background-image: url(notavailable.jpg);
+  background-image: url(hospitalimage.jpg);
   background-size: cover;
   background-position: center;
   margin-left: 610px;
@@ -205,6 +205,60 @@ li a {
 .text-container:hover {
   height: 250px;
 }
+
+/*contact me */
+ 
+.contact-header{
+  border: 3px solid #088f8f;
+  align-content: center;
+  width: 295px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 125px;
+}
+.contact-text{
+  font: black;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+}
+.contact-layout{
+  width: 500px;
+  background-color : #fff;
+  box-shadow: 0 0 20px grey;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-top: 250px;
+}
+form{
+  margin: 35px;
+}
+.input-field{
+  width: 400px;
+  height: 40px;
+  padding-left: 10px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 14px;
+  border: 1px solid #777
+}
+.textarea-field{
+  height: 120px;
+  padding-top: 10px;
+}
+.s-button{
+  border-radius: 14px;
+  width: 77px;
+  height: 35px;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 15px;
+  margin-left: 170px;
+  cursor: pointer;
+}
+
 
 /*mobile responsive */
 @media (max-width: 768px) {
