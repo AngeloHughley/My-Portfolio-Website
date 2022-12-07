@@ -178,6 +178,19 @@ li a {
   background-size: cover;
   background-position: left center;
 }
+.WiFind {
+  width: 250px;
+  height: 300px;
+  background: white;
+  position: relative;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 50px;
+  background-image: url(WiFind.png);
+  background-size: cover;
+  background-position: center;
+  
+}
 .Hospital-project {
   width: 250px;
   height: 300px;
@@ -189,8 +202,7 @@ li a {
   background-image: url(hospitalimage.jpg);
   background-size: cover;
   background-position: center;
-  margin-left: 610px;
-  z-index: 2;
+  
 }
 .text-container {
   position: absolute;
